@@ -190,7 +190,51 @@
 // let arr = [12,24,29,'salom', [8,9], true, [0, 'ok', 'hello']];
 
 // let arr1 = arr.flat();
- 
+
 // let n = arr1.at(-1);
 
 // console.log(n);
+
+// 16-masala
+// let mass = [12,34,'salom',true, 29,'ok'];
+
+// let n = mass.at(2);
+
+// mass.unshift(n);
+
+// console.log(mass);
+
+// 17-masala
+// let mass = [12, 34, "ok", true, 29, "bye"];
+
+// mass.reverse();
+
+// let N = mass.join("");
+
+// let m = N.at(-1);
+
+// console.log(m);
+
+// 18-masala
+// let arr = [12, 24, 35, "salom", true, 99, "ok", "bye", 29];
+// let arr1 = arr.slice(2, 4);
+
+// arr.splice(4, arr.length - 1);
+
+// console.log(arr);
+
+// 19-masala
+// let arr = ["hello", 12, 24, "ok", true, 45];
+// arr.splice(3, 2);
+
+// let n = arr.reverse();
+// console.log(n);
+
+// 20-masala
+// let mass = [12, 24, 6, 54, "salom", true, "ok"];
+
+// let m = mass.join(",");
+
+// let arrnew = m.split();
+
+// console.log(arrnew);
